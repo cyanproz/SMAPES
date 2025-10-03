@@ -1,0 +1,13 @@
+#shopping-item-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+#shopping-item-list > .shopping-item > img {
+    width: 200px;
+}
+
+#shopping-item-list > .shopping-item .icon {
+    font-size: 1.5em;
+}

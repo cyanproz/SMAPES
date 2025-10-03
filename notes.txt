@@ -1,0 +1,10 @@
+01/10/2025
+1. Upgrade navbar
+2. Buat page yang lainnya (About, etc)
+3. Selesaikan landing page
+4. Sambungkan dengan API bot chat AI
+
+02/10/2025
+1. Buat login 
+2. Update page shopping
+3. Update footer design

@@ -1,0 +1,37 @@
+#page-contents {
+    container-type: inline-size;  /* track width changes */
+    container-name: sections;
+}
+
+section {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+section:nth-child(odd) {
+    flex-direction: row;
+}
+
+section:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+@container sections (max-width: 720px) {
+    section:nth-child(odd) {
+        flex-direction: column;
+    }
+
+    section:nth-child(even) {
+        flex-direction: column;
+    }
+}
+
+section > img {
+    /* float: right; */
+    /* clear: right; */
+    aspect-ratio: 1/1;
+    width: 320px;
+    height: 320px;
+    border-radius: 10px;
+}

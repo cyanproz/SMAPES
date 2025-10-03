@@ -1,0 +1,7 @@
+body {
+    background-color: white;
+}
+
+.hero.home {
+    height: max-content;
+}
