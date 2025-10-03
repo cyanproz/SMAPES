@@ -115,6 +115,24 @@
         smart_toy
       </span>
     </button>
+
+    <div class="chat-widget">
+      <button id="chatToggleBtn" class="chat-toggle">💬</button>
+      <div id="chatContainer" class="chat-container hidden">
+        <div class="chat-header">
+          <span>EcoBot 🤖</span>
+          <button id="closeChat">✖</button>
+        </div>
+        <div id="chatBox" class="chat-box"></div>
+        <div class="input-area">
+          <input id="userInput" placeholder="Tulis pesan...">
+          <button id="sendBtn">Kirim</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="frontend.js"></script>
+
     <?php include "partials/chatbot.php"; ?>
   </body>
 </html>
